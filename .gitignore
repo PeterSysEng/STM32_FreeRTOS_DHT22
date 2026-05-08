@@ -1,0 +1,8 @@
+text
+build/
+.cache/
+compile_commands.json
+.cland
+*.elf
+*.bin
+*.map

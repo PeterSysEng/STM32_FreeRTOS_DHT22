@@ -1,0 +1,15 @@
+CompileFlags:
+  CompilationDatabase: "."
+  Add: 
+    - "--query-driver=/usr/bin/arm-none-eabi-gcc"
+    - "-I/usr/lib/gcc/arm-none-eabi/22.1.0/include"  # <--- Ez egy példa útvonal
+    - "-Wall"
+
+# This disables the FreeRTOS.h include error
+Diagnostics:
+  Suppress: ["pp_file_not_found", "drv_variable_reserved"]
+
+
+
+
+
