@@ -2,7 +2,9 @@ text
 build/
 .cache/
 compile_commands.json
-.cland
+.clangd
 *.elf
 *.bin
 *.map
+flashTarget.sh
+
