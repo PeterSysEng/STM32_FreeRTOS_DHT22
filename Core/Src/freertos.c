@@ -256,6 +256,7 @@ uint8_t Read_DHT22(int *Temperature, int *Humidity) {
             } else {
                 data[i] |= (1 << (7 - j));  // "1" bit
                 while (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_0)); // Waiting for the end of the nex bit 
+            
             }
         }
     }
