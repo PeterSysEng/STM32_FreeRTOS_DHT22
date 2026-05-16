@@ -17,6 +17,17 @@ Detta projekt är ett system för övervakning av temperatur och luftfuktighet m
 ---
 *Developed by PeterSysEng - Electronics Technician and Programmer*
 
+## 💻 PC Data Logger (Debian Linux)
+Inside the `PC_Logger` directory, you will find a native C application that:
+1. Opens `/dev/ttyACM0` at 115200 baud.
+2. Reads incoming rows from the STM32.
+3. Adds a precise system timestamp to each row.
+4. Saves everything automatically into a `log_data.csv` file.
+
+To compile and run:
+`gcc -o logger logger.c`
+`sudo ./logger`
+
 [![Watch the video](https://img.youtube.com/vi/Wgp3kLLGPkA/0.jpg)](https://www.youtube.com/watch?v=Wgp3kLLGPkA)
 
 
