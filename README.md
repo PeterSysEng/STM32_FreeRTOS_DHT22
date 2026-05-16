@@ -16,3 +16,7 @@ Detta projekt är ett system för övervakning av temperatur och luftfuktighet m
 
 ---
 *Developed by PeterSysEng - Electronics Technician and Programmer*
+
+[![Watch the video](https://img.youtube.com/vi/Wgp3kLLGPkA/0.jpg)](https://www.youtube.com/watch?v=Wgp3kLLGPkA)
+
+
